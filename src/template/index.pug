@@ -6,12 +6,18 @@ html(lang='en')
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
 		link(rel="stylesheet", href="assets/styles/main.css")
-		script(async, src="assets/scripts/app.js")
 	body
 		.container
 			h1.title
 				| Simple collapssing
 			.collapse
+				.collapse_child.active
+					h1 titre
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus hic ipsa minima quasi reiciendis voluptas voluptates? Fugiat minima, repellendus.
 				.collapse_child
 					h1 titre
 					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus hic ipsa minima quasi reiciendis voluptas voluptates? Fugiat minima, repellendus.
+				.collapse_child
+					h1 titre
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus hic ipsa minima quasi reiciendis voluptas voluptates? Fugiat minima, repellendus.
+		script(src="assets/scripts/app.js")
